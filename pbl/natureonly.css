@@ -1,0 +1,130 @@
+body{
+    background: rgb(155, 155, 155);
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: rgb(63, 63, 63);
+    font-family: sans-serif, Verdana;
+    padding: 10px 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name img {
+    height: 80px; /* image height */
+    width: 80px; /* image width */
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adjust spacing between elements */
+}
+
+.nav-right ul {
+    display: flex;
+    gap: 15px; /* Adjust spacing between list items */
+    list-style: none;
+}
+
+.nav-right li a, .nav-right button a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    background: rgb(45, 115, 227);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button a {
+    display: block;
+    text-align: center;
+}
+#titlename{
+    color: rgb(255, 255, 255);
+}
+/*end of the nav bar*/
+#suggestion
+{
+    width: fit-content;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#music{
+    margin-left: auto;
+    margin-right: auto;
+}
+#onerow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+#tworow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+#thirdrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+#fourrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    overflow: hidden;
+}
+#fiverow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.b {
+    font-family: Georgia, serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-bottom: 10px;
+   font-style: italic;
+  text-align: center;
+  background:  rgb(63, 63, 63);
+}
+.a{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    background: rgb(63, 63, 63) ;
+}
+#titlename{
+    background: rgb(63, 63, 63);
+    text-align: center;
+    color: white;
+}
+#footers{
+    background: rgb(63, 63, 63);
+}
